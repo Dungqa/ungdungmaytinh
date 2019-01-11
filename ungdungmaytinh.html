@@ -8,10 +8,11 @@
 <form>
     <p> </br> <input type="number" id="so1"> </p>
     <p> </br> <input type="number" id="so2"> </p>
-    <input type="button" value="Addition(+)" onclick="alert('ket qua la:'+ ' ' + cong(Number(a.value),Number(b.value)))" >
-    <input type="button" value="Subtraction(-)" onclick="alert('ket qua la:'+ ' ' + tru(Number(a.value),Number(b.value)))" >
-    <input type="button" value="Multiplication(x)" onclick="alert('ket qua la:'+ ' ' + nhan(Number(a.value),Number(b.value)))" >
-    <input type="button" value="Division(/)" onclick="alert('ket qua la:'+ ' ' + chia(Number(a.value),Number(b.value)))" >
+    <input type="button" value="Addition(+)" onclick="cong(Number(a.value),Number(b.value))" >
+    <input type="button" value="Subtraction(-)" onclick="tru(Number(a.value),Number(b.value))" >
+    <input type="button" value="Multiplication(x)" onclick="nhan(Number(a.value),Number(b.value))" >
+    <input type="button" value="Division(/)" onclick="chia(Number(a.value),Number(b.value))" >
+    <p id="ketqua">Result:</p>
 </form>
 <script src="ungdungmaytinh.js"></script>
 </body>
